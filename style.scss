@@ -313,6 +313,38 @@ main {
         }
     }
 
+    section.view7{
+        width: 100%;
+        color:black;
+        padding: 1rem;
+        width: 100%;
+        
+        .contact{
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-transform: uppercase;
+            background-color: #cebd63;
+            @include flex-column(1rem,column);
+        
+
+        h1{
+          font-size:3.5rem;
+          font-weight:400;
+        }
+        button{
+            text-transform: uppercase;
+            color: white;
+            background-color:#121212;
+            outline: none;
+            border: none;
+            padding: 1rem 1rem;
+            font-size: 1.2rem;
+            border-radius: 0.7rem;
+            width: fit-content;
+        }
+    }
+}
+
 }
 
 @media (min-width:900px) {
@@ -408,6 +440,26 @@ main {
                     gap: 11rem;
                 }
             }
+        }
+
+        section.view7{
+         .contact{
+          padding: 3rem;
+          flex-direction: row;
+
+          h1{
+            width: 90%;
+            font-size: 5rem;
+          }
+          button{
+            margin-top: 10rem;
+            padding: 2rem 1rem;
+            width: 30%;
+            height: 1%;
+            white-space: nowrap;
+          }
+
+         }
         }
     }
 }
