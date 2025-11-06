@@ -211,13 +211,13 @@ main section.view5 {
   padding: 1rem;
 }
 main section.view5 .card:nth-child(1) {
-  background-image: url(/view5-cardimh-1.webp);
+  background-image: url(view5-cardimh-1.webp);
 }
 main section.view5 .card:nth-child(2) {
-  background-image: url(/view5-img-2.webp);
+  background-image: url(view5-img-2.webp);
 }
 main section.view5 .card:nth-child(3) {
-  background-image: url(/view5-img3.webp);
+  background-image: url(view5-img3.webp);
 }
 main section.view5 .card {
   width: 100%;
